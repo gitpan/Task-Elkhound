@@ -1,0 +1,6 @@
+Revision history for Perl extension Task::Elkhound.
+
+0.01  Sun Mar 11 14:07:53 2012
+	- original version; created by h2xs 1.23 with options
+		-ABX -b 5.5.0 -n Task::Elkhound
+
