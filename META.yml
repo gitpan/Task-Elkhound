@@ -5,6 +5,9 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.36
   Test: 0
+  Test::More: 0
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -81,7 +84,6 @@ requires:
   File::Which: 0
   File::chdir: 0
   File::chmod: 0
-  FindBin::Real: 0
   Geo::Distance: 0
   HTML::Parser: 0
   HTML::Tagset: 0
@@ -135,7 +137,6 @@ requires:
   Package::Stash: 0
   Package::Stash::XS: 0
   PadWalker: 0
-  Params::Classify: 0
   Params::Coerce: 0
   Params::Util: 0
   Path::Class: 0
@@ -214,4 +215,4 @@ requires:
   prefork: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

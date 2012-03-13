@@ -1,3 +1,5 @@
+use strict;
+use warnings;
 use inc::Module::Install;
 
 name          'Task-Elkhound';
@@ -36,7 +38,6 @@ requires      'Declare::Constraints::Simple' => 0;
 requires      'Devel::GlobalDestruction'     => 0;
 requires      'Sub::Name'                    => 0;
 requires      'Eval::Closure'                => 0;
-requires      'Params::Classify'             => 0;
 requires      'Text::Aligner'                => 0;
 requires      'Text::Table'                  => 0;
 requires      'Test::NoWarnings'             => 0;
@@ -58,7 +59,6 @@ requires      'DBD::CSV'                     => 0;
 requires      'DBD::SQLite'                  => 0;
 requires      'Test::MockModule'             => 0;
 requires      'DBIx::Connector'              => 0;
-requires      'FindBin::Real'                => 0;
 requires      'Algorithm::Combinatorics'     => 0;
 requires      'JSON'                         => 0;
 requires      'JSON::XS'                     => 0;
@@ -198,7 +198,10 @@ requires      'Package::Stash::XS'                 => 0;
 requires      'Devel::PartialDump'                 => 0;
 requires      'Task::Moose'                        => 0;
 
-build_requires  'Test' => 0;
+test_requires  'Test'                => 0;
+test_requires  'Test::More'          => 0;
+test_requires  'Test::Pod'           => 0;
+test_requires  'Test::Pod::Coverage' => 0;
 
 auto_install;
 WriteAll;

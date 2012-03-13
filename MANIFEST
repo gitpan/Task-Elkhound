@@ -12,7 +12,9 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Task/Elkhound.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 README
+t/all_pod_coverage_ok.t
+t/pod.t
 t/Task-Elkhound.t
