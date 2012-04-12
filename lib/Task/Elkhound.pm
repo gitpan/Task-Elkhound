@@ -4,7 +4,7 @@ use 5.005;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
  
 1;
 __END__
@@ -16,7 +16,7 @@ Task::Elkhound - Perl extension for installing Moose and dependencies
 
 =head1 VERSION
  
-Task::Elkhound 0.02
+Task::Elkhound 0.03
 
 =head1 SYNOPSIS
 
@@ -24,7 +24,7 @@ cpan Task::Elkhound
 
 =head1 DESCRIPTION
 
-Installs dependencies of Moose and Moose
+Installs dependencies of Moose and Task::Moose
 
 =head2 EXPORT
 

@@ -8,3 +8,8 @@ Revision history for Perl extension Task::Elkhound.
 	- original version; created by h2xs 1.23 with options
 		-ABX -b 5.5.0 -n Task::Elkhound
 
+0.03  Wed Apr 11 17:59:16 2012
+	- original version; created by h2xs 1.23 with options
+		-ABX -b 5.5.0 Task::Elkhound
+                        -added more dependencies
+                        -added environmental variables list to README

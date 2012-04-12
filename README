@@ -1,29 +1,85 @@
-Task-Elkhound version 0.02
+Task-Elkhound version 0.03
 =============================
+
+PREINSTALLATION
+
+  Recommended list of environmental variables:
+   
+   PERL5OPT
+   PERL_EXTUTILS_AUTOINSTALL = '--defaultdeps'
+   PERL_AUTOINSTALL = 'defaultdeps'
+   PERL_MM_USE_DEFAULT
+   PERL_CPANPLUS_VERBOSE
+   VERBOSE
+   PERL_BATCH=yes
+   PERL_AUTOINSTALL
+   PERL_EXTUTILS_AUTOINSTALL
+   PERL_MM_USE_DEFAULT
+   TEST_SIGNATURE
+   TEST_POD
+   TEST_POD_COVERAGE
+   PERL_TEST_CRITiC
+   TEST_POD_COVERAGE
+   MB_TEST_EXPERIMENTAL
+   LAP_ALL_TESTS
+   GPGBIN=/path/to/gpg 
+   PERL_TEST_POD
+   RDFQUERY_DEV_TESTS
+   MEMORY_TEST
+   TEST_DBD_SQLITE_WITH_DEBUGGER
+   LONG_TESTS
+   POD_COVERAGE
+   POD_SYNTAX
+   POD_SPELLING
+   TEST_SPELLING
+   TEST_SPELL
+   POD_SPELL
+   DBI_AUTOPROXY
+   DBD_DBM_TEST_BACKENDS
+   DBI_TRACE
+   DBI_PURE_PERL
+   DBI_GOFER_TRACE
+   TEST_VERBOSE
+   HARNESS_TIMER
+   HARNESS_VERBOSE
+   HARNESS_OPTIONS='j9:c'
+   MOOSE_TEST_MD
+   RELEASE_TESTING
+   AUTOMATED_TESTING
+   AUTHOR_TESTING
+   
+======================================================================
 
 INSTALLATION
 
-To install this module type the following:
+To manually install this module, type the following:
 
    perl Makefile.PL
    make
    make test
    make install
+   
+To install via CPAN (recommended):
 
-DEPENDENCIES
+   cpan> install Task::Elkhound
 
-This module requires these other modules and libraries:
+DEPENDENCIES:
+
+  Tests require:
 
   Test
+  Test::More
+  Test::Pod
+  Test::Pod::Coverage
+  
+======================================================================
 
-COPYRIGHT AND LICENCE
+COPYRIGHT AND LICENSE
 
-Put the correct copyright and licence information here.
-
-Copyright (C) 2012 by Kevin W. Henwood
+Copyright (C) 2012 Kevin W. Henwood
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, and at your option,
-any  version of Perl 5 you may have available.
+it under the same terms as Perl itself, either Perl version 5.005 or,
+at your option, any later version of Perl 5 you may have available.
 
 

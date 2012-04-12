@@ -1,7 +1,7 @@
 ---
 abstract: 'Perl extension for installing Moose and dependencies'
 author:
-  - 'Kevin W. Henwood <Khen1950fx@aol.com>'
+  - 'Kevin W. Henwood, <Khen1950fx@aol.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
   Test: 0
@@ -27,81 +27,121 @@ requires:
   Algorithm::Combinatorics: 0
   Algorithm::Dependency: 0
   Algorithm::Diff: 0
+  App::Cmd: 0
+  AppConfig: 0
+  Archive::Any: 0
+  Archive::Peek: 0
   Archive::Zip: 0
+  Array::Compare: 0
+  Array::Diff: 0
+  B::Compiling: 0
   B::Hooks::EndOfScope: 0
+  B::Hooks::OP::Check: 0
+  B::Hooks::OP::Check::EntersubForCV: 0
+  B::Hooks::OP::PPAddr: 0
   B::Keywords: 0
+  B::Utils: 0
+  Business::ISBN::Data: 0
+  CPAN::DistnameInfo: 0
   CPANDB: 0
-  Carp: 0
+  Capture::Tiny: 0
+  Capture::Tiny::Extended: 0
   Carp::Clan: 0
+  Class::Accessor::Fast: 0
   Class::C3: 0
+  Class::Data::Inheritable: 0
   Class::Factory::Util: 0
   Class::Inspector: 0
   Class::Load: 0
   Class::Load::XS: 0
+  Class::MOP: 0
+  Class::Prototyped: 0
   Class::Singleton: 0
+  Class::Trigger: 0
+  Class::XSAccessor: 0
   Clone: 0
-  Compress::Raw::Bzip2: 0
   Compress::Raw::Zlib: 0
-  Compress::Zlib: 0
   Config::Tiny: 0
+  Context::Preserve: 0
   Crypt::GPG: 0
   DBD::CSV: 0
   DBD::File: 0
   DBD::SQLite: 0
+  DBD::mysql: 0
   DBI: 0
   DBIx::Connector: 0
   DBM::Deep: 0
-  Data::Dumper: 0
+  Data::Alias: 0
   Data::OptList: 0
+  Data::Section: 0
   Data::Section::Simple: 0
+  Data::ShowTable: 0
   Data::UUID: 0
   Data::Visitor: 0
+  Date::Manip: 0
   Date::Parse: 0
   DateTime: 0
   DateTime::Calendar::Mayan: 0
   DateTime::Format::Builder: 0
   DateTime::Format::MySQL: 0
   DateTime::Format::Strptime: 0
+  DateTime::Format::W3CDTF: 0
   DateTime::Locale: 0
   DateTime::TimeZone: 0
   Declare::Constraints::Simple: 0
+  Devel::BeginLift: 0
+  Devel::Cycle: 0
+  Devel::Declare: 0
   Devel::GlobalDestruction: 0
   Devel::Hide: 0
   Devel::PartialDump: 0
+  Devel::StackTrace: 0
+  Devel::Symdump: 0
   Dist::CheckConflicts: 0
+  Email::Address: 0
   Encode::Locale: 0
   Error: 0
   Eval::Closure: 0
+  Exception::Class: 0
   Expect: 0
+  ExtUtils::Depends: 0
   File::Copy::Recursive: 0
   File::Find::Rule: 0
   File::Flat: 0
   File::HomeDir: 0
   File::Listing: 0
+  File::MMagic: 0
   File::Remove: 0
   File::ShareDir: 0
   File::Slurp: 0
   File::Which: 0
   File::chdir: 0
   File::chmod: 0
+  FileHandle::Fmode: 0
   Geo::Distance: 0
+  Getopt::Long: 0
+  Getopt::Long::Descriptive: 0
   HTML::Parser: 0
   HTML::Tagset: 0
   HTTP::Cookies: 0
   HTTP::Daemon: 0
   HTTP::Date: 0
-  HTTP::Headers: 0
+  HTTP::Headers::Fast: 0
+  HTTP::Headers::Util: 0
   HTTP::Negotiate: 0
-  HTTP::Status: 0
+  Hash::Util::FieldHash::Compat: 0
   Hook::LexWrap: 0
+  IO::Capture: 0
   IO::Handle::Util: 0
   IO::Pty: 0
+  IO::Scalar: 0
   IO::String: 0
-  IO::Uncompress::Inflate: 0
+  IO::TieCombine: 0
   IPC::Run: 0
   IPC::Run3: 0
   JSON: 0
   JSON::Any: 0
+  JSON::DWIW: 0
   JSON::Syck: 0
   JSON::XS: 0
   LWP::MediaTypes: 0
@@ -113,24 +153,50 @@ requires:
   Locale::Maketext::Lexicon: 0
   Locale::US: 0
   Log::Dispatch: 0
+  Log::Dispatch::FileRotate: 0
   Log::Log4perl: 0
+  MIME::Types: 0
   MLDBM: 0
   MRO::Compat: 0
+  Math::Complex: 0
   Math::Round: 0
+  Module::Find: 0
+  Module::Implementation: 0
   Module::Info: 0
+  Module::Install: 0
+  Module::Install::AuthorTests: 0
   Module::Install::DOAPChangeSets: 0
+  Module::Install::ExtraTests: 0
+  Module::Manifest: 0
+  Module::Metadata: 0
+  Module::Pluggable::Object: 0
   Module::Refresh: 0
   Module::Runtime: 0
-  Module::Signature: 0
-  Moose: 0
+  Module::ScanDeps: 0
+  Moose::Role: 0
+  MooseX::AttributeShortcuts: 0
+  MooseX::LazyRequire: 0
+  MooseX::Meta::Method::Authorized: 0
+  MooseX::Meta::Method::Transactional: 0
+  MooseX::Meta::TypeConstraint::ForceCoercion: 0
+  MooseX::Role::Parameterized: 0
   MooseX::Role::WithOverloading: 0
+  MooseX::Traits: 0
+  MooseX::Types::Common::String: 0
+  MooseX::Types::DateTime: 0
+  MooseX::Types::Moose: 0
+  MooseX::Types::Path::Class: 0
+  MooseX::Types::Structured: 0
   Net::Daemon: 0
   Net::HTTP: 0
+  Number::Compare: 0
   Number::Format: 0
   ORLite: 0
   ORLite::Mirror: 0
   ORLite::Statistics: 0
+  PAR::Dist: 0
   PPI: 0
+  PPI::Document: 0
   PPIx::Regexp: 0
   PPIx::Utilities::Statement: 0
   Package::DeprecationManager: 0
@@ -139,11 +205,26 @@ requires:
   PadWalker: 0
   Params::Coerce: 0
   Params::Util: 0
+  Params::Validate: 0
+  Parse::CPAN::Packages: 0
+  Parse::Method::Signatures: 0
+  Parse::Method::Signatures::TypeConstraint: 0
+  Parse::RecDescent: 0
   Path::Class: 0
+  Perl6::Junction: 0
   Perl::Critic: 0
+  Perl::Critic::Utils: 0
+  Perl::Critic::Violation: 0
   Perl::Tidy: 0
   Perl::Version: 0
+  Pod::Coverage: 0
+  Pod::Coverage::Moose: 0
+  Pod::POM: 0
+  Pod::Spell: 0
+  Pod::Strip: 0
   Pod::Tests: 0
+  Pod::Usage: 0
+  Pod::Wordlist: 0
   Probe::Perl: 0
   RDF::Query: 0
   RDF::Trine: 0
@@ -154,8 +235,10 @@ requires:
   SQL::Statement: 0
   Scope::Guard: 0
   Set::Scalar: 0
+  Software::License: 0
   Statistics::Basic: 0
   String::Format: 0
+  String::RewritePrefix: 0
   Sub::Exporter: 0
   Sub::Identify: 0
   Sub::Install: 0
@@ -165,26 +248,41 @@ requires:
   Task::Weaken: 0
   Template: 0
   Term::ReadKey: 0
+  Test::CPAN::Meta: 0
+  Test::CPAN::Meta::YAML: 0
   Test::ClassAPI: 0
   Test::Deep: 0
   Test::Differences: 0
+  Test::EOL: 0
   Test::Exception: 0
   Test::Fatal: 0
+  Test::InDistDir: 0
   Test::Inline: 0
   Test::JSON: 0
+  Test::Kwalitee: 0
   Test::LeakTrace: 0
+  Test::Manifest: 0
+  Test::Memory::Cycle: 0
   Test::MockModule: 0
+  Test::Moose::More: 0
+  Test::NoTabs: 0
   Test::NoWarnings: 0
   Test::Object: 0
   Test::Output: 0
   Test::Perl::Critic: 0
   Test::Pod: 0
   Test::Pod::Coverage: 0
+  Test::Portability::Files: 0
   Test::Requires: 0
   Test::Script: 0
   Test::Spelling: 0
   Test::SubCalls: 0
+  Test::Taint: 0
   Test::Tester: 0
+  Test::Warn: 0
+  Test::Without::Module: 0
+  Test::YAML::Meta: 0
+  Test::YAML::Valid: 0
   Test::use::ok: 0
   Text::Aligner: 0
   Text::CSV: 0
@@ -192,22 +290,30 @@ requires:
   Text::Diff: 0
   Text::Glob: 0
   Text::Table: 0
+  Text::Template: 0
+  Tie::ToObject: 0
   Tree::DAG_Node: 0
   Try::Tiny: 0
-  URI: 0
+  TryCatch: 0
+  UNIVERSAL::require: 0
+  URI::Escape: 0
+  URI::Escape::XS: 0
+  Variable::Magic: 0
   WWW::RobotRules: 0
   XML::CommonNS: 0
+  XML::DOM: 0
   XML::Namespace: 0
   XML::NamespaceFactory: 0
   XML::NamespaceSupport: 0
   XML::SAX: 0
   XML::SAX::Base: 0
   YAML: 0
-  YAML::LibYAML: 0
   YAML::Syck: 0
+  YAML::Tiny: 0
+  YAML::XS: 0
+  YAML::XS::LibYAML: 0
   aliased: 0
   asa: 0
-  autodie: 0
   common::sense: 0
   namespace::autoclean: 0
   namespace::clean: 0
@@ -215,4 +321,4 @@ requires:
   prefork: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
